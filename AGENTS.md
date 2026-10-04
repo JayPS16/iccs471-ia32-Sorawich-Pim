@@ -1,0 +1,4 @@
+-This is a Python booking app for meeting rooms. Use SPEC.md for the move rules.
+-Only implement move_booking in service.py. Keep booking creation and existing tests working, and don't edit SPEC.md. The moved booking must not conflict with its own old time.
+-Run uv run --python 3.12 python -m unittest -v test_baseline test_move_smoke test_student after changes.
+-Stop after the edit and show the changed files for review.
